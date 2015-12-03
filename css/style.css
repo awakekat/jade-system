@@ -1,0 +1,23 @@
+body {
+  line-height: 1.5;
+}
+
+a {
+  color: teal;
+}
+
+h2 {
+  color: teal;
+}
+
+.four-grid-hdr h2 {
+  margin-bottom: 50px;
+}
+
+.four-grid-hdr h4, .four-grid-hdr p {
+  line-height: 1.8;
+}
+
+.four-grid-hdr .fa {
+  margin: 30px 0 15px 0;
+}

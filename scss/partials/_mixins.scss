@@ -1,0 +1,9 @@
+// main: ../style.scss
+@mixin primary-bg {
+  color: $primary;
+}
+@mixin bg {
+  background-color: $primary;
+  padding: 10px;
+  border-radius: 30px;
+}

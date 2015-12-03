@@ -11,6 +11,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/placeholder-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89773,
+		"inputAbbreviatedPath": "\/images\/placeholder-md.jpg",
+		"outputAbbreviatedPath": "\/images\/placeholder-md.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284641,
+		"inputAbbreviatedPath": "\/images\/placeholder.jpg",
+		"outputAbbreviatedPath": "\/images\/placeholder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -84,8 +106,8 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/readme.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/readme.html",

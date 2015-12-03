@@ -1,9 +1,31 @@
 // main: ../style.scss
-@mixin primary-bg {
+
+@mixin primary-hdr {
   color: $primary;
+  margin-bottom: 50px;
+  text-align: center;
 }
-@mixin bg {
+
+@mixin icon-bg {
   background-color: $primary;
   padding: 10px;
   border-radius: 30px;
+}
+@mixin two-col-pic {
+  h2 {
+    @include primary-hdr;
+  }
+  h3 {
+    line-height: 1.7;
+  }
+  .col-xs-6 i h3 {
+    text-transform: capitalize;
+  }
+  img {
+    max-height:300px;
+    margin-top: 25px;
+  }
+  .fa {
+    text-align: center;
+  }
 }

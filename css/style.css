@@ -28,3 +28,9 @@ a {
 .two-col-pic .fa {
   text-align: center;
 }
+
+.img-bg h2 {
+  color: teal;
+  margin-bottom: 50px;
+  text-align: center;
+}

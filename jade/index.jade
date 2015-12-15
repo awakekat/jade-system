@@ -1,11 +1,9 @@
 //output:../index.html
+
 extends templates/main-temp
-include partials/mixins/blocks.jade
+
 block title 
-  | Website
+  | Cool Website
 
 block content
-  include partials/features/img-bg.jade
-  +four-col-hdr
-  
-block scripts
+  include partials/features/four-col.jade

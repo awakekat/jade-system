@@ -18,6 +18,32 @@ section {
 .empty-button {
   @include empty-button($black, $black) ;
 }
-.four-grid-hdr h2 {
-  @include primary-hdr;
+.four-grid-hdr {
+  h2 {
+    @include primary-hdr;
+  }
+}
+.four-col-hdr {
+  h2 {
+    @include primary-hdr;
+  }
+  h4 {
+    padding-bottom: 80px;
+    line-height: 2em;
+  }
+}
+.four-pic-grid h2 {
+    @include primary-hdr;
+}
+.img-pic-grid-1 {
+  @include four-pic-grid(left, 180px, 250px, '../images/10-small.jpg', 50% 50% );
+}
+.img-pic-grid-2 {
+  @include four-pic-grid(left, 180px, 250px, '../images/13-small.jpg', 50% 50% );
+}
+.img-pic-grid-3 {
+  @include four-pic-grid(left, 180px, 250px, '../images/46-small.jpg', 50% 50% );
+}
+.img-pic-grid-4 {
+  @include four-pic-grid(left, 180px, 250px, '../images/16-small.jpg', 50% 50% );
 }

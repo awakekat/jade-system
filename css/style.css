@@ -68,3 +68,60 @@ section {
   margin-bottom: 50px;
   text-align: center;
 }
+
+.four-col-hdr h2 {
+  color: teal;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.four-col-hdr h4 {
+  padding-bottom: 80px;
+  line-height: 2em;
+}
+
+.four-pic-grid h2 {
+  color: teal;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.img-pic-grid-1 {
+  float: left;
+  height: 180px;
+  width: 250px;
+  margin: 0 15px 40px 0;
+  background-image: url("../images/10-small.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.img-pic-grid-2 {
+  float: left;
+  height: 180px;
+  width: 250px;
+  margin: 0 15px 40px 0;
+  background-image: url("../images/13-small.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.img-pic-grid-3 {
+  float: left;
+  height: 180px;
+  width: 250px;
+  margin: 0 15px 40px 0;
+  background-image: url("../images/46-small.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.img-pic-grid-4 {
+  float: left;
+  height: 180px;
+  width: 250px;
+  margin: 0 15px 40px 0;
+  background-image: url("../images/16-small.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}

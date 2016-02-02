@@ -48,3 +48,12 @@
   display: inline-block;
 
 }
+
+@mixin empty-button ($border, $txtc) {
+  border: 2px solid $border;
+  padding: 12px 35px;
+  font-weight: bold;
+  display: inline-block;
+  color: $txtc;
+  text-transform: uppercase;
+}

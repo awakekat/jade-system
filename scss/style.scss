@@ -8,5 +8,10 @@
   @include two-col-pic;
 }
 .img-bg {
-  @include img-bg;
+  @include img-bg('../images/placeholder-md.jpg', cover);
+  padding: 50px 0 60px 0;
+}
+.more-button {
+  @include more-button($primary, #fff);
+
 }

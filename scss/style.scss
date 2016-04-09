@@ -36,21 +36,25 @@ section {
     @include primary-hdr;
 }
 .img-pic-grid-1 {
-  @include four-pic-grid(left, 180px, 250px, '../images/10-small.jpg', 50% 50% );
+  @include pic-grid(left, 180px, 250px, '../images/10-small.jpg', 50% 50% );
 }
 .img-pic-grid-2 {
-  @include four-pic-grid(left, 180px, 250px, '../images/13-small.jpg', 50% 50% );
+  @include pic-grid(left, 180px, 250px, '../images/13-small.jpg', 50% 50% );
 }
 .img-pic-grid-3 {
-  @include four-pic-grid(left, 180px, 250px, '../images/46-small.jpg', 50% 50% );
+  @include pic-grid(left, 180px, 250px, '../images/46-small.jpg', 50% 50% );
 }
 .img-pic-grid-4 {
-  @include four-pic-grid(left, 180px, 250px, '../images/16-small.jpg', 50% 50% );
+  @include pic-grid(left, 180px, 250px, '../images/16-small.jpg', 50% 50% );
 }
 
 // two-col-icon-pic
 .two-col-icon-pic {
   i.fa {
-    @include two-col-icon(teal, white);
+    @include two-col-icon(25px, teal, white);
+  }
+  img {
+    @include pic-grid(left, 270px, 100%, '../images/16.jpg', center center );
+    background-size: cover;
   }
 }

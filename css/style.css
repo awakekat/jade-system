@@ -6,6 +6,10 @@ a {
   color: teal;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 section {
   padding: 50px 0 60px 0;
 }
@@ -128,8 +132,20 @@ section {
 
 .two-col-icon-pic i.fa {
   font-size: 30px;
-  background-color: teal;
   padding: 15px;
   border-radius: 30px;
+  margin-top: 25px;
+  background-color: teal;
   color: white;
+}
+
+.two-col-icon-pic img {
+  float: left;
+  height: 270px;
+  width: 100%;
+  margin: 0 15px 40px 0;
+  background-image: url("../images/16.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

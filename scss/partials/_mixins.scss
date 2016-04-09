@@ -69,10 +69,22 @@
   }
 }
 
-@mixin two-col-icon ($bgc, $c) {
+@mixin two-col-icon ($mt, $bgc, $c) {
   font-size: 30px;
-  background-color: $bgc;
   padding: 15px;
   border-radius: 30px;
+  margin-top: $mt;
+  background-color: $bgc;
   color: $c;
+}
+@mixin pic-grid ($float, $h, $w, $imgpath, $position, $repeat:no-repeat) {
+  float: $float;
+  height: $h;
+  width: $w;
+  margin: 0 15px 40px 0;
+  background: {
+    image: url($imgpath);
+    position: $position;
+    repeat: $repeat;
+  }
 }

@@ -1,5 +1,8 @@
 // main: ../style.scss
 
+@mixin bgcolor ($bgc) {
+  background-color: $bgc;
+}
 @mixin primary-hdr {
   color: $primary;
   margin-bottom: 50px;
@@ -87,4 +90,23 @@
     position: $position;
     repeat: $repeat;
   }
+}
+// SERVICES
+@mixin service-grid-icon ($bgc, $c, $mt) {
+  background-color: $bgc;
+  color: $c;
+  margin-top: $mt;
+  text-align: center;
+  i.fa {
+    margin-top: 50px;
+    font-size: 36px;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
+@mixin service-arrow-button {
+  border: 3px solid white;
+  color: white;
 }

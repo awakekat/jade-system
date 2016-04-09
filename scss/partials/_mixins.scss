@@ -92,14 +92,21 @@
   }
 }
 // SERVICES
-@mixin service-grid-icon ($bgc, $c, $mt) {
+@mixin service-grid-icon ($bgc, $c, $mt, $p) {
   background-color: $bgc;
   color: $c;
-  margin-top: $mt;
+  margin: $mt 0;
+  padding: $p 0;
   text-align: center;
-  i.fa {
-    margin-top: 50px;
-    font-size: 36px;
+  i.service-icon {
+    font-size: 26px
+  }
+  .empty-button {
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 3px 30px;
+    margin: 0;
   }
   h4 {
     text-transform: uppercase;

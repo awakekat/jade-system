@@ -63,14 +63,18 @@ section {
 }
 // SERVICES
 .service-grid-icon-1 {
-  @include service-grid-icon($service-blue, white, 50px);
+  @include service-grid-icon($service-blue, white, 50px, 50px);
 }
 .service-grid-icon-2 {
-  @include service-grid-icon($service-light-blue, white, 50px);
+  @include service-grid-icon($service-light-blue, white, 50px, 50px);
 }
 .service-grid-icon-3 {
-  @include service-grid-icon($service-orange, white, 50px);
+  @include service-grid-icon($service-orange, white, 50px, 50px);
 }
 .service-grid-icon-4 {
-  @include service-grid-icon($service-light-green, white, 50px);
+  @include service-grid-icon($service-light-green, white, 50px, 50px);
+}
+.service-icon-4 > .container-fluid.bgc-gray {
+  padding-right: 0px;
+  padding-left: 0px;
 }

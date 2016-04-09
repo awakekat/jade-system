@@ -168,13 +168,21 @@ section {
 .service-grid-icon-1 {
   background-color: #003058;
   color: white;
-  margin-top: 50px;
+  margin: 50px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
-.service-grid-icon-1 i.fa {
-  margin-top: 50px;
-  font-size: 36px;
+.service-grid-icon-1 i.service-icon {
+  font-size: 26px;
+}
+
+.service-grid-icon-1 .empty-button {
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 3px 30px;
+  margin: 0;
 }
 
 .service-grid-icon-1 h4 {
@@ -185,13 +193,21 @@ section {
 .service-grid-icon-2 {
   background-color: #01A0D8;
   color: white;
-  margin-top: 50px;
+  margin: 50px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
-.service-grid-icon-2 i.fa {
-  margin-top: 50px;
-  font-size: 36px;
+.service-grid-icon-2 i.service-icon {
+  font-size: 26px;
+}
+
+.service-grid-icon-2 .empty-button {
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 3px 30px;
+  margin: 0;
 }
 
 .service-grid-icon-2 h4 {
@@ -202,13 +218,21 @@ section {
 .service-grid-icon-3 {
   background-color: #EE945F;
   color: white;
-  margin-top: 50px;
+  margin: 50px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
-.service-grid-icon-3 i.fa {
-  margin-top: 50px;
-  font-size: 36px;
+.service-grid-icon-3 i.service-icon {
+  font-size: 26px;
+}
+
+.service-grid-icon-3 .empty-button {
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 3px 30px;
+  margin: 0;
 }
 
 .service-grid-icon-3 h4 {
@@ -219,16 +243,29 @@ section {
 .service-grid-icon-4 {
   background-color: #00E099;
   color: white;
-  margin-top: 50px;
+  margin: 50px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
-.service-grid-icon-4 i.fa {
-  margin-top: 50px;
-  font-size: 36px;
+.service-grid-icon-4 i.service-icon {
+  font-size: 26px;
+}
+
+.service-grid-icon-4 .empty-button {
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 3px 30px;
+  margin: 0;
 }
 
 .service-grid-icon-4 h4 {
   text-transform: uppercase;
   font-weight: normal;
+}
+
+.service-icon-4 > .container-fluid.bgc-gray {
+  padding-right: 0px;
+  padding-left: 0px;
 }

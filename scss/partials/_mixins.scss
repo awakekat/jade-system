@@ -68,3 +68,11 @@
     repeat: $repeat;
   }
 }
+
+@mixin two-col-icon ($bgc, $c) {
+  font-size: 30px;
+  background-color: $bgc;
+  padding: 15px;
+  border-radius: 30px;
+  color: $c;
+}

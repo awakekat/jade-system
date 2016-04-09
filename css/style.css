@@ -80,7 +80,7 @@ section {
   line-height: 2em;
 }
 
-.four-pic-grid h2 {
+.four-pic-grid h2, .two-col-icon-pic h2 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
@@ -124,4 +124,12 @@ section {
   background-image: url("../images/16-small.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+.two-col-icon-pic i.fa {
+  font-size: 30px;
+  background-color: teal;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
 }

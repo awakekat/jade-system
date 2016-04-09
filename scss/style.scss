@@ -32,7 +32,7 @@ section {
     line-height: 2em;
   }
 }
-.four-pic-grid h2 {
+.four-pic-grid h2, .two-col-icon-pic h2 {
     @include primary-hdr;
 }
 .img-pic-grid-1 {
@@ -46,4 +46,11 @@ section {
 }
 .img-pic-grid-4 {
   @include four-pic-grid(left, 180px, 250px, '../images/16-small.jpg', 50% 50% );
+}
+
+// two-col-icon-pic
+.two-col-icon-pic {
+  i.fa {
+    @include two-col-icon(teal, white);
+  }
 }

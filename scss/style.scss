@@ -26,6 +26,20 @@
   }
 }
 
+// FEATURE-4
+.feature-4 {
+  i {
+    @include icon-bg($primary, 10px, 30px, #fff);
+  }
+  img.placeholder {
+    @include img-bg('../images/46.jpg', 320px, 100%, cover);
+  }
+}
+
+
+
+
+
 .more-button {
   @include more-button($primary, #fff);
 }

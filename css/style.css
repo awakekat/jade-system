@@ -53,6 +53,21 @@ h3, h4 {
   margin-bottom: 20px;
 }
 
+.feature-4 i {
+  background-color: teal;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.feature-4 img.placeholder {
+  height: 320px;
+  width: 100%;
+  background-image: url("../images/46.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .more-button {
   background-color: teal;
   border-radius: 4px;

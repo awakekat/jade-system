@@ -15,13 +15,14 @@
   margin-bottom: 15px;
   border-radius: 5px;
 }
+@mixin icon-bg($bgc, $p, $br, $c) {
+  background-color: $bgc;
+  padding: $p;
+  border-radius: $br;
+  color: $c;
+}
 // =======================
 
-@mixin icon-bg {
-  background-color: $primary;
-  padding: 10px;
-  border-radius: 30px;
-}
 
 @mixin img-bg ($imgpath, $h, $w, $bg-size, $repeat:no-repeat) {
   height: $h;

@@ -1,6 +1,5 @@
 .brackets.json
 test.html
-
 css/style.min.css
-
 config.codekit
+prepros.cfg

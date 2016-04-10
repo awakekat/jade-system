@@ -139,6 +139,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -194,6 +203,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/partials\/features\/feature-5.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-5.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/jade\/partials\/features\/feature-5.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-5.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-5.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/partials\/features\/four-grid.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -208,7 +237,7 @@
 	"\/jade\/partials\/features\/four-pic-grid.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
@@ -230,7 +259,7 @@
 	"\/jade\/partials\/features\/service-1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/service-1.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/service-1.html",
@@ -241,7 +270,7 @@
 	"\/jade\/partials\/features\/two-col-text-pic.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.html",

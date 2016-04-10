@@ -6,6 +6,10 @@
 section {
   padding: 50px 0 60px 0;
 }
+
+section > h2 {
+  @include primary-hdr;
+}
 .two-col-pic {
   @include two-col-pic;
 }

@@ -4,11 +4,10 @@
   background-color: $bgc;
 }
 @mixin primary-hdr {
-  color: $primary;
-  margin-bottom: 50px;
-  text-align: center;
+    color: $primary;
+    margin-bottom: 50px;
+    text-align: center;
 }
-
 @mixin icon-bg {
   background-color: $primary;
   padding: 10px;

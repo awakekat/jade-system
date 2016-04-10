@@ -159,6 +159,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/jade\/partials\/features\/feature-1.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-1.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/partials\/features\/four-col-butn.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -166,17 +177,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-col-butn.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/four-col-butn.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/jade\/partials\/features\/four-col.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-col.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/features\/four-col.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

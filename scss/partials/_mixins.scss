@@ -1,5 +1,6 @@
 // main: ../style.scss
 
+// BASE STYLES
 @mixin bgcolor ($bgc) {
   background-color: $bgc;
 }
@@ -8,6 +9,14 @@
     margin-bottom: 50px;
     text-align: center;
 }
+@mixin light-white-bg {
+  background-color: rgba(255, 255, 255 , 0.8);
+  padding: 1px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+// =======================
+
 @mixin icon-bg {
   background-color: $primary;
   padding: 10px;

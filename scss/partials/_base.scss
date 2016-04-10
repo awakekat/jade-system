@@ -12,6 +12,8 @@ a {
 h4 {
   font-weight: bold;
 }
+
+// Fix for Bootstrap no gutters
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -21,9 +23,11 @@ h4 {
   padding-right: 0;
   padding-left: 0;
 }
-.light-bg {
-  background-color: rgba(255, 255, 255 , 0.8);
-  padding: 1px 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
+
+section {
+  padding: 50px 0 60px 0;
+}
+
+section > h2 {
+  @include primary-hdr;
 }

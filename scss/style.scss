@@ -27,8 +27,11 @@ section {
   h2 {
     @include primary-hdr;
   }
+  i {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
   h4 {
-    padding-bottom: 80px;
     line-height: 2em;
   }
 }

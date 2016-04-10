@@ -97,8 +97,12 @@ section {
   text-align: center;
 }
 
+.four-col-hdr i {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .four-col-hdr h4 {
-  padding-bottom: 80px;
   line-height: 2em;
 }
 

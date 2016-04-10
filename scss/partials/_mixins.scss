@@ -22,31 +22,14 @@
   padding: 10px;
   border-radius: 30px;
 }
-@mixin two-col-pic {
-  h2 {
-    @include primary-hdr;
-  }
-  h3 {
-    line-height: 1.7;
-  }
-  .col-xs-6 i h3 {
-    text-transform: capitalize;
-  }
-  img {
-    max-height:300px;
-    margin-top: 25px;
-  }
-  .fa {
-    text-align: center;
-  }
-}
-@mixin img-bg ($imgpath,$bg-size,$repeat:no-repeat) {
+
+@mixin img-bg ($imgpath, $bg-size, $repeat:no-repeat) {
   background: {
     image: url($imgpath);
     size: $bg-size;
     repeat: $repeat;
   }
-  h2{
+  h2 {
     @include primary-hdr;
   }
 }

@@ -4,9 +4,18 @@
 @import "partials/base";
 
 
-.two-col-pic {
-  @include two-col-pic;
+// FEATURE-1
+.feature-1 {
+  i {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
 }
+
+
+
+
+
 .img-bg {
   @include img-bg('../images/placeholder-md.jpg', cover);
 }

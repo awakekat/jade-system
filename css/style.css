@@ -31,27 +31,14 @@ section > h2 {
   text-align: center;
 }
 
-.two-col-pic h2 {
-  color: teal;
-  margin-bottom: 50px;
-  text-align: center;
+h3, h4 {
+  line-height: 1.7em;
+  margin-top: 0;
 }
 
-.two-col-pic h3 {
-  line-height: 1.7;
-}
-
-.two-col-pic .col-xs-6 i h3 {
-  text-transform: capitalize;
-}
-
-.two-col-pic img {
-  max-height: 300px;
-  margin-top: 25px;
-}
-
-.two-col-pic .fa {
-  text-align: center;
+.feature-1 i {
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .img-bg {

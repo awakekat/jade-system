@@ -19,6 +19,13 @@
   }
 }
 
+// FEATURE-3
+.feature-3 {
+  i {
+    margin-bottom: 20px;
+  }
+}
+
 .more-button {
   @include more-button($primary, #fff);
 }

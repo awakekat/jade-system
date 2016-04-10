@@ -49,6 +49,10 @@ h3, h4 {
   background-repeat: no-repeat;
 }
 
+.feature-3 i {
+  margin-bottom: 20px;
+}
+
 .more-button {
   background-color: teal;
   border-radius: 4px;

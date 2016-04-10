@@ -12,13 +12,13 @@
   }
 }
 
-
-
-
-
-.img-bg {
-  @include img-bg('../images/placeholder-md.jpg', cover);
+// FEATURE-2
+.feature-2 {
+  img.placeholder {
+    @include img-bg('../images/placeholder-md.jpg',320px, 100%, cover);
+  }
 }
+
 .more-button {
   @include more-button($primary, #fff);
 }

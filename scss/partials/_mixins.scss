@@ -23,14 +23,13 @@
   border-radius: 30px;
 }
 
-@mixin img-bg ($imgpath, $bg-size, $repeat:no-repeat) {
+@mixin img-bg ($imgpath, $h, $w, $bg-size, $repeat:no-repeat) {
+  height: $h;
+  width: $w;
   background: {
     image: url($imgpath);
     size: $bg-size;
     repeat: $repeat;
-  }
-  h2 {
-    @include primary-hdr;
   }
 }
 @mixin more-button ($bgc, $txtc) {

@@ -176,12 +176,13 @@ section {
   background-color: #003058;
   color: white;
   margin: 50px 0;
-  padding: 50px 0;
+  padding: 50px 5px;
   text-align: center;
 }
 
 .service-grid-icon-1 i.service-icon {
-  font-size: 26px;
+  font-size: 36px;
+  padding-bottom: 10px;
 }
 
 .service-grid-icon-1 .empty-button {
@@ -189,7 +190,7 @@ section {
   color: white;
   font-size: 16px;
   padding: 3px 30px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 .service-grid-icon-1 h4 {
@@ -201,12 +202,13 @@ section {
   background-color: #01A0D8;
   color: white;
   margin: 50px 0;
-  padding: 50px 0;
+  padding: 50px 5px;
   text-align: center;
 }
 
 .service-grid-icon-2 i.service-icon {
-  font-size: 26px;
+  font-size: 36px;
+  padding-bottom: 10px;
 }
 
 .service-grid-icon-2 .empty-button {
@@ -214,7 +216,7 @@ section {
   color: white;
   font-size: 16px;
   padding: 3px 30px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 .service-grid-icon-2 h4 {
@@ -226,12 +228,13 @@ section {
   background-color: #EE945F;
   color: white;
   margin: 50px 0;
-  padding: 50px 0;
+  padding: 50px 5px;
   text-align: center;
 }
 
 .service-grid-icon-3 i.service-icon {
-  font-size: 26px;
+  font-size: 36px;
+  padding-bottom: 10px;
 }
 
 .service-grid-icon-3 .empty-button {
@@ -239,7 +242,7 @@ section {
   color: white;
   font-size: 16px;
   padding: 3px 30px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 .service-grid-icon-3 h4 {
@@ -251,12 +254,13 @@ section {
   background-color: #00E099;
   color: white;
   margin: 50px 0;
-  padding: 50px 0;
+  padding: 50px 5px;
   text-align: center;
 }
 
 .service-grid-icon-4 i.service-icon {
-  font-size: 26px;
+  font-size: 36px;
+  padding-bottom: 10px;
 }
 
 .service-grid-icon-4 .empty-button {
@@ -264,7 +268,7 @@ section {
   color: white;
   font-size: 16px;
   padding: 3px 30px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 .service-grid-icon-4 h4 {
@@ -275,4 +279,26 @@ section {
 .service-icon-4 > .container-fluid.bgc-gray {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.service-icon-4 h2 {
+  color: teal;
+  margin-bottom: 50px;
+  text-align: center;
+  text-align: center;
+}
+
+.service-icon-4 h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-icon-4 .lead-button {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.service-icon-4 .lead-button h3 {
+  display: inline-block;
+  padding-right: 15px;
 }

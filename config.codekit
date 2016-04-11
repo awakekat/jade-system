@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/feature-other.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/feature-other.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/partials\/features\/feature-7.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -139,15 +148,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -225,6 +225,28 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/partials\/features\/feature-8.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-other.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/partials\/features\/four-grid.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -236,16 +258,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/features\/four-pic-grid.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
+	"\/jade\/partials\/features\/four-pic-grid.html": {
+		"fileType": 8192,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/partials\/features\/img-bg.jade": {
 		"compileDebug": 1,

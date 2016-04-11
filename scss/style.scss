@@ -53,6 +53,32 @@
   }
 }
 
+
+// FEATURE-7
+.feature-7 {
+  .container-fluid {
+    padding: 0;
+  }
+  .gray-bg {
+    @include bgcolor(#eee);
+    color: $primary;
+    height: 400px;
+    h3.quote {
+      padding: 60px 25px 0 40px;
+    }
+    h3.author {
+      padding: 15px 25px 0 40px;
+      color: #000;
+      text-transform: uppercase;
+    }
+  }
+  img.placeholder {
+    @include img-bg('../images/10.jpg', 400px, 100%, cover);
+  }
+}
+
+
+
 .more-button {
   @include more-button($primary, #fff);
 }

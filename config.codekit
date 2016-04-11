@@ -236,6 +236,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/partials\/features\/feature-9.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/partials\/features\/feature-other.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -266,17 +277,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/jade\/partials\/features\/img-bg.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/img-bg.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/features\/img-bg.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
 		},
 	"\/jade\/partials\/features\/service-1.jade": {
 		"compileDebug": 1,

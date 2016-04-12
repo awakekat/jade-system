@@ -6,7 +6,7 @@ a {
   color: teal;
 }
 
-h4 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
@@ -29,6 +29,7 @@ section > h2 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3, h4 {
@@ -151,12 +152,14 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .four-col-hdr h2 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .four-col-hdr i {
@@ -172,6 +175,7 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .img-pic-grid-1 {
@@ -351,6 +355,7 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
   text-align: center;
 }
 

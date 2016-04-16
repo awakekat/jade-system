@@ -11,11 +11,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/feature-other.html": {
+	"\/html\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/feature-other.html",
+		"inputAbbreviatedPath": "\/html\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -239,7 +239,7 @@
 	"\/jade\/partials\/features\/feature-9.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.html",
@@ -303,8 +303,8 @@
 	"\/jade\/partials\/mixins\/blocks.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.html",
 		"outputPathIsOutsideProject": 0,
@@ -421,7 +421,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "KATHERINE WAKEFIELD",
+"lastSavedByUser": "Katherine",
 "manualImportLinks": {
 	},
 "projectAttributes": {

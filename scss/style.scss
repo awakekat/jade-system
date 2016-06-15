@@ -53,6 +53,27 @@
   }
 }
 
+// FEATURE-6
+.feature-6 {
+  i {
+    @include icon-bg($primary, 10px, 30px, #fff);
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  div {
+    overflow: hidden;
+  }
+  h4 {
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+
+
 .more-button {
   @include more-button($primary, #fff);
 }
@@ -105,6 +126,9 @@
 .bgc-gray {
   @include bgcolor(#eee);
 }
+
+
+
 // SERVICES
 .service-grid-icon-1 {
   @include service-grid-icon($service-blue, white, 50px, 50px);

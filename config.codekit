@@ -11,11 +11,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.min.css": {
-		"fileType": 16,
+	"\/html\/index.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.min.css",
+		"inputAbbreviatedPath": "\/html\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/partials\/features\/feature-7.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/partials\/features\/feature-7.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -148,15 +157,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -223,13 +223,55 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+<<<<<<< HEAD
 	"\/jade\/partials\/features\/feature-6.jade": {
+=======
+	"\/jade\/partials\/features\/feature-7.jade": {
+>>>>>>> 36e364860eaa7e4fdc981ef0eb698cb3d204947e
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.html",
+=======
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.html",
+>>>>>>> 36e364860eaa7e4fdc981ef0eb698cb3d204947e
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-8.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-9.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-other.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -245,27 +287,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/features\/four-pic-grid.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/jade\/partials\/features\/img-bg.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
+	"\/jade\/partials\/features\/four-pic-grid.html": {
+		"fileType": 8192,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/img-bg.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/features\/img-bg.html",
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/partials\/features\/service-1.jade": {
 		"compileDebug": 1,
@@ -292,8 +321,8 @@
 	"\/jade\/partials\/mixins\/blocks.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.html",
 		"outputPathIsOutsideProject": 0,
@@ -406,20 +435,11 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
-		},
-	"\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "KATHERINE WAKEFIELD",
+"lastSavedByUser": "Katherine",
 "manualImportLinks": {
 	},
 "projectAttributes": {

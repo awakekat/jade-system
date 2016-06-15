@@ -1,15 +1,2 @@
-mixin four-col-hdr(title, subhdr, csize, cnumbr)
-  section.four-col-hdr
-    h2.text-center= title
-    h4.text-center= subhdr
-    .container
-      .row
-        -for (var i=0; i < 3; i++)
-          .col-#{size}-#{numbr}
-            +icon-block
-            
-mixin icon-block(icon, size, hdr, p)
-  i.fa.fa-= icon .fa-#{size}-#{hdr}
-  h4.text-center= hdr
-  p.text-center= p
-  
+mixin pet(name)
+  li.pet= name

@@ -6,7 +6,7 @@ a {
   color: teal;
 }
 
-h4 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
@@ -29,6 +29,7 @@ section > h2 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3, h4 {
@@ -119,6 +120,34 @@ h3, h4 {
   margin-bottom: 5px;
 }
 
+.feature-7 .container-fluid {
+  padding: 0;
+}
+
+.feature-7 .gray-bg {
+  background-color: #eee;
+  color: teal;
+  height: 400px;
+}
+
+.feature-7 .gray-bg h3.quote {
+  padding: 60px 25px 0 40px;
+}
+
+.feature-7 .gray-bg h3.author {
+  padding: 15px 25px 0 40px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.feature-7 img.placeholder {
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .more-button {
   background-color: teal;
   border-radius: 4px;
@@ -141,12 +170,14 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .four-col-hdr h2 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .four-col-hdr i {
@@ -162,6 +193,7 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .img-pic-grid-1 {
@@ -341,6 +373,7 @@ h3, h4 {
   color: teal;
   margin-bottom: 50px;
   text-align: center;
+  text-transform: uppercase;
   text-align: center;
 }
 

@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/style.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -29,20 +38,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/partials\/features\/feature-6.html": {
+	"\/html\/partials\/mixins\/blocks.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/partials\/features\/feature-6.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/partials\/features\/service-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/partials\/features\/service-1.html",
+		"inputAbbreviatedPath": "\/html\/partials\/mixins\/blocks.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -223,22 +223,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-<<<<<<< HEAD
 	"\/jade\/partials\/features\/feature-6.jade": {
-=======
-	"\/jade\/partials\/features\/feature-7.jade": {
->>>>>>> 36e364860eaa7e4fdc981ef0eb698cb3d204947e
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.html",
-=======
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-7.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.html",
->>>>>>> 36e364860eaa7e4fdc981ef0eb698cb3d204947e
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -257,7 +259,7 @@
 	"\/jade\/partials\/features\/feature-9.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.html",
@@ -268,8 +270,8 @@
 	"\/jade\/partials\/features\/feature-other.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.html",
 		"outputPathIsOutsideProject": 0,
@@ -287,20 +289,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/features\/four-pic-grid.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/four-pic-grid.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/jade\/partials\/features\/service-1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/service-1.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/service-1.html",
 		"outputPathIsOutsideProject": 0,
@@ -310,21 +303,21 @@
 	"\/jade\/partials\/features\/two-col-text-pic.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/mixins\/blocks.jade": {
+	"\/jade\/partials\/mixins\/mixins.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/mixins\/blocks.html",
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/mixins\/mixins.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/mixins\/mixins.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -435,11 +428,20 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
+		},
+	"\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Katherine",
+"lastSavedByUser": "KATHERINE WAKEFIELD",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -605,7 +607,7 @@
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
-	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp, slim",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
@@ -1049,14 +1051,14 @@
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
-	"slimAutoOutputPathRelativePath": "\/",
+	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
-	"slimAutoOutputPathStyle": 1,
+	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
 	"slimOutputFormat": 0,
-	"slimOutputStyle": 0,
+	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
 	"stylusAutoOutputPathFilenamePattern": "*.css",
@@ -1080,7 +1082,7 @@
 	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleResolutionType": 0,
-	"typescriptModuleType": 0,
+	"typescriptModuleType": 2,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,

@@ -157,6 +157,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -167,6 +176,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/feature-1.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/partials\/features\/feature-1.jade": {
 		"compileDebug": 1,
@@ -193,7 +211,7 @@
 	"\/jade\/partials\/features\/feature-3.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-3.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-3.html",
@@ -204,7 +222,7 @@
 	"\/jade\/partials\/features\/feature-4.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-4.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-4.html",
@@ -215,7 +233,7 @@
 	"\/jade\/partials\/features\/feature-5.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-5.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-5.html",
@@ -226,7 +244,7 @@
 	"\/jade\/partials\/features\/feature-6.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.html",
@@ -237,7 +255,7 @@
 	"\/jade\/partials\/features\/feature-7.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-7.html",
@@ -248,7 +266,7 @@
 	"\/jade\/partials\/features\/feature-8.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-8.html",
@@ -259,7 +277,7 @@
 	"\/jade\/partials\/features\/feature-9.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-9.html",
@@ -296,6 +314,17 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/service-1.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/service-1.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/partials\/features\/testmixins.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/partials\/features\/testmixins.jade",
+		"outputAbbreviatedPath": "\/jade\/partials\/features\/testmixins.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

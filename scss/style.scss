@@ -53,6 +53,13 @@
   }
 }
 
+// FEATURE-6
+.feature-6 {
+  i {
+    @include icon-bg($primary, 10px, 30px, #fff);
+  }
+}
+
 
 // FEATURE-7
 .feature-7 {

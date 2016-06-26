@@ -12,7 +12,9 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
-
+.f-left {
+  float:left;
+}
 // Fix for Bootstrap no gutters
 .row.no-gutters {
   margin-right: 0;
@@ -23,7 +25,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 0;
   padding-left: 0;
 }
-
+.padt-20 {
+  padding-top: 20px;
+}
 section {
   padding: 50px 0 60px 0;
 }

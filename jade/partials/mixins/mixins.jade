@@ -6,6 +6,6 @@ mixin featureone(header, desc, content)
         h4.col-sm-10.col-sm-offset-1.text-center= desc
         each val in content
           .col-sm-3.text-center
-          i(class="fa fa-#{block.icon} fa-#{block.size}")
-          h4= block.title
-          p= block.body  
+            i(class="fa fa-#{val.icon} fa-#{val.size}")
+            h4= val.title
+            p= val.p  

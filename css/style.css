@@ -115,6 +115,20 @@ h3, h4 {
   padding: 10px;
   border-radius: 30px;
   color: #fff;
+<<<<<<< HEAD
+=======
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.feature-6 div {
+  overflow: hidden;
+}
+
+.feature-6 h4 {
+  margin-bottom: 5px;
+>>>>>>> 76f4503c6090ab29e2cd0104e683762e5af66f78
 }
 
 .feature-7 .container-fluid {

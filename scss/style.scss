@@ -102,6 +102,17 @@
   }
 }
 
+// FEATURE-8
+
+
+// FEATURE-9
+.feature-9 {
+  @include img-bg('../images/46.jpg', 400px, 100%, cover);
+}
+
+
+
+
 
 .more-button {
   @include more-button($primary, #fff);

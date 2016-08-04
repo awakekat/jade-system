@@ -11,51 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/partials\/features\/feature-7.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/partials\/features\/feature-7.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/partials\/mixins\/blocks.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/partials\/mixins\/blocks.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/images\/10-small.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -186,15 +141,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/features\/feature-1.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/jade\/partials\/features\/feature-1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -253,11 +199,7 @@
 	"\/jade\/partials\/features\/feature-6.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-<<<<<<< HEAD
-		"ignore": 1,
-=======
 		"ignore": 0,
->>>>>>> 76f4503c6090ab29e2cd0104e683762e5af66f78
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-6.html",
@@ -301,8 +243,8 @@
 	"\/jade\/partials\/features\/feature-other.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/feature-other.html",
 		"outputPathIsOutsideProject": 0,
@@ -323,8 +265,8 @@
 	"\/jade\/partials\/features\/service-1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/service-1.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/service-1.html",
 		"outputPathIsOutsideProject": 0,
@@ -345,8 +287,8 @@
 	"\/jade\/partials\/features\/two-col-text-pic.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.jade",
 		"outputAbbreviatedPath": "\/jade\/partials\/features\/two-col-text-pic.html",
 		"outputPathIsOutsideProject": 0,
@@ -470,15 +412,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
-		},
-	"\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -649,7 +582,7 @@
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
-	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp, slim",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
@@ -673,12 +606,12 @@
 	"jadeOutputStyle": 0,
 	"javascriptAutoOutputPathEnabled": 1,
 	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
-	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathRelativePath": "..\/js",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 1,
+	"javascriptOutputStyle": 0,
 	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -1088,19 +1021,19 @@
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
-	"shouldRunAutoprefixer": 0,
+	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
-	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathRelativePath": "\/",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
-	"slimAutoOutputPathStyle": 0,
+	"slimAutoOutputPathStyle": 2,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
 	"slimOutputFormat": 0,
-	"slimOutputStyle": 1,
+	"slimOutputStyle": 0,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
 	"stylusAutoOutputPathFilenamePattern": "*.css",
@@ -1124,7 +1057,7 @@
 	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleResolutionType": 0,
-	"typescriptModuleType": 2,
+	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,

@@ -15,7 +15,7 @@
 // FEATURE-2
 .feature-2 {
   img.placeholder {
-    @include img-bg('../images/placeholder-md.jpg',320px, 100%, cover);
+    @include img-bg('../images/placeholder-md.jpg', 350px, auto, cover);
   }
 }
 
@@ -107,9 +107,10 @@
 
 // FEATURE-9
 .feature-9 {
-  @include img-bg('../images/46.jpg', 400px, 100%, cover);
+  @include img-bg('../images/46.jpg', auto, 100%, cover);
 }
 
+// FEATURE-10
 
 
 

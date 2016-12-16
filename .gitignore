@@ -18,6 +18,10 @@ prepros.cfg
 config.codekit
 /min
 
+### Prepros ###
+# Ignore config file
+prepros-6.config
+
 ### Windows ###
 # Windows image file caches
 Thumbs.db

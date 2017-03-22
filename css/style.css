@@ -110,6 +110,12 @@ h3, h4 {
   text-transform: uppercase;
 }
 
+.feature-5 .empty-button:hover {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+}
+
 .feature-6 i {
   background-color: teal;
   padding: 10px;
@@ -187,6 +193,12 @@ h3, h4 {
   display: inline-block;
   color: #222;
   text-transform: uppercase;
+}
+
+.empty-button:hover {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
 }
 
 .four-grid-hdr h2 {

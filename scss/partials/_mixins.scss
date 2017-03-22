@@ -43,13 +43,19 @@
 
 }
 
-@mixin empty-button ($border, $txtc) {
+@mixin empty-button ($border, $txtc, $hvrbg:teal, $hvrc:white) {
   border: 2px solid $border;
   padding: 12px 35px;
   font-weight: bold;
   display: inline-block;
   color: $txtc;
   text-transform: uppercase;
+  &:hover {
+    background-color: $hvrbg;
+    color: $hvrc;
+    // border: none;
+    text-decoration: none;
+  }
 }
 @mixin four-pic-grid ($float, $h, $w, $imgpath, $position, $repeat:no-repeat) {
   float: $float;

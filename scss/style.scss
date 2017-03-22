@@ -206,3 +206,14 @@
     padding-right: 15px;
   }
 }
+// HEADERS
+.header-1 {
+  .contact {
+    @include contact-hdr;
+  }
+  p.address {
+    color: white;
+    @include zero;
+    
+  }
+}

@@ -15,7 +15,7 @@
 // FEATURE-2
 .feature-2 {
   img.placeholder {
-    @include img-bg('../images/placeholder-md.jpg', 350px, auto, cover);
+    @include img-bg('../images/46.jpg', 350px, 100%, cover);
   }
 }
 
@@ -32,7 +32,7 @@
     @include icon-bg($primary, 10px, 30px, #fff);
   }
   img.placeholder {
-    @include img-bg('../images/46.jpg', 320px, 100%, cover);
+    @include img-bg('../images/46.jpg', 280px, 100%, cover);
   }
 }
 
@@ -113,6 +113,7 @@
 // FEATURE-10
 
 
+// FEATURE-11
 
 
 .more-button {
@@ -203,5 +204,16 @@
   h3 {
     display:inline-block;
     padding-right: 15px;
+  }
+}
+// HEADERS
+.header-1 {
+  .contact {
+    @include contact-hdr;
+  }
+  p.address {
+    color: white;
+    @include zero;
+    
   }
 }

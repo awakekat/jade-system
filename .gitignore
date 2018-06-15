@@ -8,8 +8,16 @@ test.html
 ### No Minification Please ###
 css/style.min.css
 
+### Markdown ###
+*.md
+
+### Images ###
+*.jpg
+*.psd
+/images/*
+
 ### Prepros ###
-prepros-6.config
+*.config
 
 # Created by https://www.gitignore.io/api/codekit,windows
 

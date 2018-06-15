@@ -13,16 +13,15 @@
 }
 
 // FEATURE-2
-.feature-2 {
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 350px, 100%, cover);
-  }
-}
+
 
 // FEATURE-3
 .feature-3 {
   i {
     margin-bottom: 20px;
+  }
+  img.placeholder {
+    @include img-bg('../images/46.jpg', 280px, 100%, cover);
   }
 }
 

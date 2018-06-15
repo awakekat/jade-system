@@ -50,16 +50,16 @@ h3, h4 {
   margin-bottom: 25px;
 }
 
-.feature-2 img.placeholder {
-  height: 350px;
+.feature-3 i {
+  margin-bottom: 20px;
+}
+
+.feature-3 img.placeholder {
+  height: 280px;
   width: 100%;
   background-image: url("../images/46.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.feature-3 i {
-  margin-bottom: 20px;
 }
 
 .feature-4 i {

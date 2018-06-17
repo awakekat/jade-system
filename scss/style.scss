@@ -129,7 +129,9 @@
   .more {
     @include empty-button(teal, teal);
   }
-  .row:nth-child(2)
+  .row:nth-child(2) {
+    margin-top: 28px;
+  }
 }
 
 // FEATURE-11

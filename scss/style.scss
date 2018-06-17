@@ -28,12 +28,12 @@
 // FEATURE-4
 .feature-4 {
   color: white;
-  text-align: center;
   .overlay-img {
-    @include overlay-img($h:420px);
+    @include overlay-img($h:490px);
   }
   h2 {
     padding: 50px 0 20px 0;
+    text-align: center;
   }
   h4 {
     padding-bottom: 10px;

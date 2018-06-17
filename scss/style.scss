@@ -115,7 +115,22 @@
 }
 
 // FEATURE-10
-
+.feature-10 {
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: teal;
+    text-transform: uppercase;
+  }
+  h4 {
+    margin-top: 0;
+    line-height: .8em;
+  }
+  .more {
+    @include empty-button(teal, teal);
+  }
+  .row:nth-child(2)
+}
 
 // FEATURE-11
 

@@ -46,17 +46,14 @@
 // FEATURE-5
 .feature-5 {
   text-align: center;
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 320px, 100%, cover);
+  i {
+    padding-bottom: 25px;
   }
-  img.placeholder-1 {
-    @include img-bg('../images/16.jpg', 320px, 100%, cover);
+  h5 {
+    text-transform: uppercase;
   }
-  h3 {
-    padding: 15px 0;
-  }
-  .empty-button {
-    @include empty-button(#000, #000);
+  .more {
+    @include empty-button(teal, teal); 
   }
 }
 

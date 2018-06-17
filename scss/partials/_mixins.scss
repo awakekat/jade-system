@@ -87,6 +87,7 @@
   display: inline-block;
   color: $txtc;
   text-transform: uppercase;
+  transition: .7s;
   &:hover {
     background-color: $hvrbg;
     color: $hvrc;

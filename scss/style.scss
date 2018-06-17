@@ -27,11 +27,19 @@
 
 // FEATURE-4
 .feature-4 {
-  i {
-    @include icon-bg($primary, 10px, 30px, #fff);
+  color: white;
+  text-align: center;
+  .overlay-img {
+    @include overlay-img($h:420px);
   }
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 280px, 100%, cover);
+  h2 {
+    padding: 50px 0 20px 0;
+  }
+  h4 {
+    padding-bottom: 10px;
+  }
+  p {
+    line-height: 1.8em;
   }
 }
 

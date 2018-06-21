@@ -89,24 +89,26 @@
 
 // FEATURE-7
 .feature-7 {
-  .container-fluid {
-    padding: 0;
-  }
-  .gray-bg {
-    @include bgcolor(#eee);
-    color: $primary;
-    height: 400px;
-    h3.quote {
-      padding: 60px 25px 0 40px;
-    }
-    h3.author {
-      padding: 15px 25px 0 40px;
-      color: #000;
-      text-transform: uppercase;
+  i {
+    margin-top: 13px;
+    background-color: teal;
+    padding: 9px;
+    border-radius: 40px;
+    color: white;
+    &.far.fa-star {
+      font-size: 40px;
+      padding: 8px;
     }
   }
-  img.placeholder {
-    @include img-bg('../images/10.jpg', 400px, 100%, cover);
+  h4 {
+    text-transform: uppercase;
+    padding-left: 35px;
+  }
+  p {
+    padding-left: 35px;
+  }
+  img {
+    margin-top: 10px;
   }
 }
 

@@ -146,33 +146,30 @@ h3, h4 {
   margin-bottom: 5px;
 }
 
-.feature-7 .container-fluid {
-  padding: 0;
+.feature-7 i {
+  margin-top: 13px;
+  background-color: teal;
+  padding: 9px;
+  border-radius: 40px;
+  color: white;
 }
 
-.feature-7 .gray-bg {
-  background-color: #eee;
-  color: teal;
-  height: 400px;
+.feature-7 i.far.fa-star {
+  font-size: 40px;
+  padding: 8px;
 }
 
-.feature-7 .gray-bg h3.quote {
-  padding: 60px 25px 0 40px;
-}
-
-.feature-7 .gray-bg h3.author {
-  padding: 15px 25px 0 40px;
-  color: #000;
+.feature-7 h4 {
   text-transform: uppercase;
+  padding-left: 35px;
 }
 
-.feature-7 img.placeholder {
-  height: 400px;
-  width: 100%;
-  background-image: url("../images/10.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.feature-7 p {
+  padding-left: 35px;
+}
+
+.feature-7 img {
+  margin-top: 10px;
 }
 
 .feature-9 {

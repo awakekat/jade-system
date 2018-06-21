@@ -29,7 +29,7 @@
 .feature-4 {
   color: white;
   .overlay-img {
-    @include overlay-img($h:470px);
+    @include overlay-img($a1:.6,$a2:.6,$h:470px);
   }
   h2 {
     padding: 50px 0 20px 0;
@@ -40,6 +40,10 @@
   }
   p {
     line-height: 1.8em;
+  }
+  img {
+    margin-top: 13px;
+    margin-left: 40px;
   }
 }
 

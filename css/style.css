@@ -88,6 +88,11 @@ h3, h4 {
   line-height: 1.8em;
 }
 
+.feature-4 img {
+  margin-top: 13px;
+  margin-left: 40px;
+}
+
 .feature-5 {
   text-align: center;
 }

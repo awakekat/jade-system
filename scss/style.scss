@@ -113,7 +113,16 @@
 }
 
 // FEATURE-8
-
+.feature-8 {
+  color: white;
+  .bgcolor {
+    @include bgcolor(teal);
+    padding: 25px 45px;
+  }
+  .img-bg {
+    @include img-bg('https://source.unsplash.com/random/1920x1080', 60vh, 100%);
+  }
+}
 
 // FEATURE-9
 .feature-9 {

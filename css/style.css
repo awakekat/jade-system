@@ -172,6 +172,24 @@ h3, h4 {
   margin-top: 10px;
 }
 
+.feature-8 {
+  color: white;
+}
+
+.feature-8 .bgcolor {
+  background-color: teal;
+  padding: 25px 45px;
+}
+
+.feature-8 .img-bg {
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://source.unsplash.com/random/1920x1080");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .feature-9 {
   height: auto;
   width: 100%;

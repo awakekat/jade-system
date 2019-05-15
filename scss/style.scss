@@ -3,6 +3,14 @@
 @import "partials/mixins";
 @import "partials/base";
 
+// TITLES STYLE
+.sect-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.sect-sub-title {
+  text-align: center;
+}
 
 // FEATURE-1
 .feature-1 {
@@ -13,43 +21,51 @@
 }
 
 // FEATURE-2
-.feature-2 {
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 350px, 100%, cover);
-  }
-}
+
 
 // FEATURE-3
 .feature-3 {
   i {
     margin-bottom: 20px;
   }
+  img.placeholder {
+    @include img-bg('../images/46.jpg', 280px, 100%, cover);
+  }
 }
 
 // FEATURE-4
 .feature-4 {
-  i {
-    @include icon-bg($primary, 10px, 30px, #fff);
+  color: white;
+  .overlay-img {
+    @include overlay-img($a1:.6,$a2:.6,$h:470px);
   }
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 280px, 100%, cover);
+  h2 {
+    padding: 50px 0 20px 0;
+    text-align: center;
+  }
+  h4 {
+    padding-bottom: 10px;
+  }
+  p {
+    line-height: 1.8em;
+  }
+  img {
+    margin-top: 13px;
+    margin-left: 40px;
   }
 }
 
 // FEATURE-5
 .feature-5 {
   text-align: center;
-  img.placeholder {
-    @include img-bg('../images/46.jpg', 320px, 100%, cover);
+  i {
+    padding-bottom: 25px;
   }
-  img.placeholder-1 {
-    @include img-bg('../images/16.jpg', 320px, 100%, cover);
+  h5 {
+    text-transform: uppercase;
   }
-  h3 {
-    padding: 15px 0;
-  }
-  .empty-button {
-    @include empty-button(#000, #000);
+  .more {
+    @include empty-button(teal, teal); 
   }
 }
 
@@ -81,29 +97,40 @@
 
 // FEATURE-7
 .feature-7 {
-  .container-fluid {
-    padding: 0;
-  }
-  .gray-bg {
-    @include bgcolor(#eee);
-    color: $primary;
-    height: 400px;
-    h3.quote {
-      padding: 60px 25px 0 40px;
-    }
-    h3.author {
-      padding: 15px 25px 0 40px;
-      color: #000;
-      text-transform: uppercase;
+  i {
+    margin-top: 13px;
+    background-color: teal;
+    padding: 9px;
+    border-radius: 40px;
+    color: white;
+    &.far.fa-star {
+      font-size: 40px;
+      padding: 8px;
     }
   }
-  img.placeholder {
-    @include img-bg('../images/10.jpg', 400px, 100%, cover);
+  h4 {
+    text-transform: uppercase;
+    padding-left: 35px;
+  }
+  p {
+    padding-left: 35px;
+  }
+  img {
+    margin-top: 10px;
   }
 }
 
 // FEATURE-8
-
+.feature-8 {
+  color: white;
+  .bgcolor {
+    @include bgcolor(teal);
+    padding: 25px 45px;
+  }
+  .img-bg {
+    @include img-bg('https://source.unsplash.com/random/1920x1080', 60vh, 100%);
+  }
+}
 
 // FEATURE-9
 .feature-9 {
@@ -111,7 +138,24 @@
 }
 
 // FEATURE-10
-
+.feature-10 {
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: teal;
+    text-transform: uppercase;
+  }
+  h4 {
+    margin-top: 0;
+    line-height: .8em;
+  }
+  .more {
+    @include empty-button(teal, teal);
+  }
+  .row:nth-child(2) {
+    margin-top: 28px;
+  }
+}
 
 // FEATURE-11
 

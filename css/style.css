@@ -45,6 +45,15 @@ h3, h4 {
   margin-top: 0;
 }
 
+.sect-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sect-sub-title {
+  text-align: center;
+}
+
 .feature-1 i {
   margin-top: 50px;
   margin-bottom: 25px;

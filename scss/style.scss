@@ -3,6 +3,14 @@
 @import "partials/mixins";
 @import "partials/base";
 
+// TITLES STYLE
+.sect-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.sect-sub-title {
+  text-align: center;
+}
 
 // FEATURE-1
 .feature-1 {
